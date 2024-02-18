@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+        body{
+           
+            background-color: rgba(100, 148, 237, 0.544);
+           
+            
+        }
+        .contanir{
+            border: 4px solid black;
+            height: 700px;
+            width: 1150px;
+            padding: 3% 4%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+          
+}
+img {
+    transition: all 0.5s;
+
+}
+img:nth-child(1):hover{
+    transform: rotate(360deg);
+}
+img:nth-child(2){
+    animation-name: nthchild2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform-origin: top right;
+}
+@keyframes nthchild2 {
+            from{
+                transform: rotate(0);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+img:nth-child(3){
+    animation-name: nthchild3;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform-origin: bottom left;
+}
+@keyframes nthchild3 {
+            from{
+                transform: rotate(0);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+img:nth-child(4){
+    animation-name: nthchild4;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform-origin: top center;
+}
+@keyframes nthchild4 {
+            from{
+                transform: rotate(0);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        h1{
+            width: 400px;
+            border-block: 7px solid green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    .para{
+        text-align:justify;
+
+column-count: 3;
+column-gap: 15px;
+
+column-rule-color: rgb(10, 226, 241);
+column-rule-width: 10px;
+column-rule-style: solid;
+
+padding: 10px;
+border: 8px solid rgb(249, 241, 5);
+    }
+    .para1{
+            text-align: justify;
+            writing-mode: vertical-rl;
+        }
+        :root{
+            --text-color-red: rgb(255, 0, 0);
+            --background-color-black:black;
+            --smallFontSize: 10px;
+            --mediumFontSize: 30px;
+            --LargeFontSize: 50px;
+        }
+        p{
+            color: var(--text-color-red);
+            background-color: var(--background-color-black);
+            font-size: var(--LargeFontSize);
+        }
+        a{
+            
+            color: var(--text-color-red);
+            background-color: var(--background-color-black);
+            font-size: var(--LargeFontSize);
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pic rotate</title>
+</head>
+<body>
+    <div class="contanir">
+<img src="Screenshot 2024-02-18 214650.png" alt="">
+<img src="Screenshot 2024-02-18 214650.png" alt="">
+<img src="Screenshot 2024-02-18 214650.png" alt="">
+<img src="Screenshot 2024-02-18 214650.png" alt="">
+
+
+
+    </div>
+    <h1>this is heading one</h1>
+    <a href="#" style="font-size: 50px;"> link</a>
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, quaerat. Molestias quia vel ut enim porro, est laborum excepturi non, fuga autem omnis! Quia quibusdam fuga alias repellat aliquid quae.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quas eos autem excepturi at minima rerum labore iusto voluptatem ducimus. Error delectus, facilis deserunt architecto repellat nihil libero adipisci culpa.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse provident saepe eveniet dignissimos culpa vitae a earum perspiciatis molestias, reiciendis obcaecati necessitatibus maxime tempore natus fugiat veniam commodi in.
+    </p>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, quaerat. Molestias quia vel ut enim porro, est laborum excepturi non, fuga autem omnis! Quia quibusdam fuga alias repellat aliquid quae.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quas eos autem excepturi at minima rerum labore iusto voluptatem ducimus. Error delectus, facilis deserunt architecto repellat nihil libero adipisci culpa.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse provident saepe eveniet dignissimos culpa vitae a earum perspiciatis molestias, reiciendis obcaecati necessitatibus maxime tempore natus fugiat veniam commodi in.
+    </p>
+</body>
+</html>
